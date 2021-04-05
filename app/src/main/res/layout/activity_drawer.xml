@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:id="@+id/drawer"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/mypage_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="마이페이지"/>
+
+    <Button
+        android:id="@+id/favorit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="찜 목록"/>
+
+    <Button
+        android:id="@+id/setting_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="환경설정"/>
+
+
+</LinearLayout>
